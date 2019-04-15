@@ -28,7 +28,6 @@ while tries >= 0 and win is False:
         elif int(guess_input) == num:
             print("You got it!")
             win = True
-            # retry()
     while win is True:
         try_again = input("Try again? (Y)es or (N)o: ")
         if try_again.upper() == 'Y' or try_again.upper() == 'N':
